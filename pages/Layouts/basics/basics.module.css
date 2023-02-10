@@ -1,0 +1,41 @@
+.pageBody{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.gridContainer{
+    width: 900px;
+    height: 80vh;
+    display: grid;
+    background-color: #DEBAD6;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1fr 2fr 3fr;
+    padding: 10px;
+    gap: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+.gridContainer>div{
+    background-color: #C26DBC;
+    border-radius: 10px;
+}
+.gridContainer>:nth-child(1){
+    grid-column: span 2;
+}
+.gridContainer>:nth-child(2){
+    grid-column: span 3;
+}
+.gridContainer>:nth-child(3){
+    grid-column: span 1;
+}
+.gridContainer>:nth-child(4){
+    grid-column: 2/span 4;
+}
+.gridContainer>:nth-child(5){
+    grid-column: span 3;
+}
+.gridContainer>:nth-child(6){
+    grid-column: span 3;
+}

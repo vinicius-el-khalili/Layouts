@@ -1,0 +1,54 @@
+.mainPicture{
+    width: 400px;
+    height: 300px;
+    align-self: center;
+    background-color: thistle;
+    border: 2px solid white;
+}
+.smallPicture{
+    width: 200px;
+    height: 200px;
+    background-color: thistle;
+    border: 2px solid white;
+}
+.gridContainer{
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    width: 85vw;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 3fr 2fr;
+}
+.pageTitle{
+    grid-column: span 2;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.mainPicture{
+    justify-self: center;
+    grid-column: span 1;
+}
+.mainText{
+    grid-column: span 1;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.gallery{
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.gallery>div{
+    justify-self: center;
+}
