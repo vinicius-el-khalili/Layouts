@@ -11,7 +11,7 @@ const HolyGrail = () => {
                 </header>
                 
                 <section className={style.menu}>
-                    <h4>Categories</h4>
+                    <h5>Categories</h5>
                     <div>
                         <p>Category</p>
                         <p>Category</p>
@@ -38,9 +38,9 @@ const HolyGrail = () => {
                     <h5>Published on:</h5>
                     <p>Feb 10th 2023</p>
                     <h5>In the category:</h5>
-                    <p>Category two</p>
+                    <p>Category</p>
                     <h5>Written by:</h5>
-                    <p>Me</p>
+                    <p>Lorem</p>
                 </section>
 
                 <footer className={style.footer}>
