@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+/* aesthetics */
+.body{
+    font-family: "Jost";
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr .7fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+}
+
+.mainSection{
+    background-color:silver;
+    height: 100%;
+    grid-row: span 2;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.mainSection>nav{
+    display: flex;
+    gap:1em;
+    padding: 1em;
+    justify-content: center;
+}
+.mainSection>section{
+    background-color: aliceblue;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainSection>section>h1{
+    font-size: 5rem;
+    font-family: "Pacifico";
+}
+
+.pictureSection1,.pictureSection2{
+    position: relative;
+}
+
+
+/* media queries    */
+.textSection1,.textSection2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.pictureSection1{
+    height: 130%;
+}
+
+.pictureSection2{
+    height: 140%;
+    align-self: self-end;
+}
+
+.textSection1{
+    height: 60%;
+    background-color: tan;
+}
+
+.textSection2{
+    background-color: tan;
+    height: 70%;
+    align-self: self-end;
+}
