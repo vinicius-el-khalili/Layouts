@@ -9,8 +9,17 @@
     width: 100%;
     background-color: aliceblue;
     gap: 1rem;
-    padding: 1rem 0 1rem 0;
     color: #945153;
+}
+.navButton{
+    width: 30px;
+    height: 30px;
+    background-color: tomato;
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    margin-top: .5em;
+    transform: translate(-150%,50%);
 }
 .pageTitle{
     text-align: center;
