@@ -9,6 +9,7 @@ import { useState } from "react"
 const Masonry = () => {
     const [menuToggle,setMenuToggle] = useState(true)
     function handleMenuButton(){
+        console.log(window.innerWidth)
         menuToggle?
             setMenuToggle(false)
             :
@@ -18,19 +19,23 @@ const Masonry = () => {
         <div className={style.body}>
 
             <nav className={style.nav}>
-                
-                <div className={style.pageTitle}>
-                    <h3>Cherry</h3>
-                    <h1>BLOSSOM</h1>
-                </div>
-                <div className={style.menu} style={menuToggle?{display:"block"}:{display:"none"}}>
-                    <h3>Section</h3>
-                    <h3>Section</h3>
-                    <h3>Section</h3>
-                    <h3>Section</h3>
-                </div>
-
                 <NavButton handleMenuButton={handleMenuButton}></NavButton>
+                <div className={style.pageTitle}>
+                    <div>
+                        <h3>Cherry</h3>
+                        <h1>BLOSSOM</h1>                        
+                    </div>
+                </div>
+                <div style={menuToggle?{display:"block"}:{display:"none"}}>
+                    <div className={style.menu}>
+                        <h3>Section</h3>
+                        <h3>Section</h3>
+                        <h3>Section</h3>
+                        <h3>Section</h3>
+                    </div>    
+                </div>
+                
+
 
             </nav>
 

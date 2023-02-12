@@ -2,7 +2,10 @@
 
 .body{
     font-family: "Josefin Sans";
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav{
@@ -14,12 +17,12 @@
 .navButton{
     width: 30px;
     height: 30px;
-    background-color: tomato;
-    position: fixed;
-    top: 0;
+    background-color:rgb(222, 229, 236);
+    position: absolute;
     left: 100vw;
-    margin-top: .5em;
-    transform: translate(-150%,50%);
+    transform: translate(-150%,23px);
+    border-radius: 10px;
+    display: none;
 }
 .pageTitle{
     text-align: center;
@@ -29,12 +32,11 @@
     color: #D88E8E;
 }
 .menu{
-    background-color: violet;
+    background-color: none;
 }
 .menu>h3{
     text-align: center;
     padding: .5rem 0 .5rem 0;
-    margin: 0 1rem 0 1rem;
     cursor: pointer;
 }
 .menu>h3:hover{
@@ -42,12 +44,55 @@
 }
 
 .picture{
-    border: 5px solid #D2DCE9;
-    margin-bottom: 1em;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }   
 
 .gridContainer{
-    column-count: 4;
-    position: relative;
+    width: 70%;
     margin: auto;
+    margin-top: 2em;
+    position: relative;
+    column-count: 2;
+    gap: 10px;
+}
+
+
+/* media queries */
+@media screen and (max-width:300px){
+    .gridContainer{
+        column-count: 1;
+    }
+    .navButton{
+        display: block;
+    }
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+    .gridContainer{
+        column-count: 2;
+        gap: 5px;
+    }
+    .picture{
+        margin-bottom: 5px;
+    }
+    .navButton{
+        display: block;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .menu{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .gridContainer{
+        column-count: 3;
+        max-width: 900px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .gridContainer{
+        column-count: 4;
+    }
 }

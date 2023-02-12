@@ -4,7 +4,7 @@ const NavButton = ({handleMenuButton}) => {
     return (
         <>
             <div className={style.navButton} onClick={handleMenuButton}>
-                X
+                
             </div>
         </>
     );
