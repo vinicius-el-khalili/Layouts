@@ -13,7 +13,8 @@
 }
 
 .mainSection{
-    background-color:silver;
+    background-color:#21281B;
+    color: #D9C8AF;
     height: 100%;
     grid-row: span 2;
     display: grid;
@@ -26,7 +27,6 @@
     justify-content: center;
 }
 .mainSection>section{
-    background-color: aliceblue;
     padding: 4em;
     display: flex;
     flex-direction: column;
@@ -63,11 +63,13 @@
 
 .textSection1{
     height: 60%;
-    background-color: tan;
+    background-color: #535F4C;
+    color: white;
 }
 
 .textSection2{
-    background-color: tan;
     height: 70%;
+    background-color: #6D502B;
+    color: white;
     align-self: self-end;
 }

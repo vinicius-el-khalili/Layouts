@@ -10,11 +10,11 @@ const FullWidth = () => {
             <section className={style.mainSection}>
                 <nav>
                     <p>Home</p>
-                    <p>Portfolio</p>
+                    <p>About</p>
                     <p>Contact</p>
                 </nav>
                 <section>
-                    <h1>Lorem</h1>
+                    <h1>Rustic</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum perspiciatis fuga eveniet voluptas illo eligendi voluptatum!</p>
                 </section>
             </section>
@@ -23,12 +23,12 @@ const FullWidth = () => {
                 <Image src={pic1} fill style={{objectFit:"cover"}}></Image>
             </section>
             <section className={style.textSection1}>
-                <h2>About</h2>
+                <h2>Lorem</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </section>
 
             <section className={style.textSection2}>
-                <h2>About</h2>
+                <h2>Lorem</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </section>
             <section className={style.pictureSection2}>
