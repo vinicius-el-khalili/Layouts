@@ -9,7 +9,6 @@ import { useState } from "react"
 const Masonry = () => {
     const [menuToggle,setMenuToggle] = useState(true)
     function handleMenuButton(){
-        console.log(window.innerWidth)
         menuToggle?
             setMenuToggle(false)
             :
@@ -26,6 +25,7 @@ const Masonry = () => {
                         <h1>BLOSSOM</h1>                        
                     </div>
                 </div>
+                
                 <div style={menuToggle?{display:"block"}:{display:"none"}}>
                     <div className={style.menu}>
                         <h3>Section</h3>
@@ -41,22 +41,22 @@ const Masonry = () => {
 
             <div className={style.gridContainer}>
 
-                <Image src={cherry1} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry2} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry3} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry4} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry4} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry3} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry2} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry1} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry2} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry4} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry1} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry3} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry3} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry1} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry4} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
-                <Image src={cherry2} style={{display:"block",width:"100%",height:"auto"}} className={style.picture}></Image>
+                <Image src={cherry1} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry2} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry3} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry4} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry4} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry3} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry2} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry1} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry2} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry4} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry1} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry3} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry3} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry1} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry4} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
+                <Image src={cherry2} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
 
             </div>
 

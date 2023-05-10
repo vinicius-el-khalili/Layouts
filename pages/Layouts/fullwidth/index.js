@@ -20,7 +20,7 @@ const FullWidth = () => {
             </section>
 
             <section className={style.pictureSection1}>
-                <Image src={pic1} fill style={{objectFit:"cover"}}></Image>
+                <Image src={pic1} fill style={{objectFit:"cover"}} alt="image"></Image>
             </section>
             <section className={style.textSection1}>
                 <h2>Lorem</h2>
@@ -32,7 +32,7 @@ const FullWidth = () => {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </section>
             <section className={style.pictureSection2}>
-                <Image src={pic2} fill style={{objectFit:"cover"}}></Image>
+                <Image src={pic2} fill style={{objectFit:"cover"}} alt="image"></Image>
             </section>
 
             

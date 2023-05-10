@@ -25,7 +25,7 @@ const HolyGrail = () => {
                 <section className={style.content}>
                     <h1>World's most beautiful waters</h1>
                     <div>
-                        <Image src={"/img/caribe.jpg"} fill={true} style={{objectFit:"cover"}}></Image>
+                        <Image src={"/img/caribe.jpg"} fill={true} style={{objectFit:"cover"}} alt="image"></Image>
                     </div>
                     <article>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit autem deleniti quam fugit id vero consequatur eaque rerum ab recusandae saepe, enim tempora ullam similique dolore. Natus pariatur fugit praesentium ab, excepturi at officia sint quod cupiditate placeat ducimus et fugiat tempora minima nemo iure eius quis vero aspernatur non debitis doloribus aperiam? Eveniet ullam similique quibusdam, cum consectetur consequatur hic culpa accusantium, illum qui rem ipsa quae, delectus ex accusamus id ad. In facere, reiciendis, doloremque sint rerum unde fuga vel sit velit enim accusamus porro fugit aut error quia ea, impedit commodi cumque quas recusandae dolorem vero?</p>

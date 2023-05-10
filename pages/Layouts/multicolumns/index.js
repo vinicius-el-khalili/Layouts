@@ -9,7 +9,7 @@ const multicolumns = () => {
             <div className={style.gridContainer}>
                 <article className={style.mainArticle}>
                     <div className={style.mainPicture}>
-                        <Image src={"/img/img1.jpg"} fill={true}></Image>
+                        <Image src={"/img/img1.jpg"} fill={true} alt="image"></Image>
                     </div>
                     <div className={style.mainText}>
                         <h2>Title</h2>                        
@@ -19,7 +19,7 @@ const multicolumns = () => {
 
                 <article className={style.article}>
                     <div className={style.smallPicture}>
-                        <Image src={"/img/img1.jpg"} fill={true}></Image>
+                        <Image src={"/img/img1.jpg"} fill={true} alt="image"></Image>
                     </div>
                     <div className={style.smallText}>
                         <h3>Title</h3>
@@ -29,7 +29,7 @@ const multicolumns = () => {
 
                 <article className={style.article}>
                     <div className={style.smallPicture}>
-                        <Image src={"/img/img2.jpg"} fill={true}></Image>
+                        <Image src={"/img/img2.jpg"} fill={true} alt="image"></Image>
                     </div>
                     <div className={style.smallText}>
                         <h3>Title</h3>
@@ -39,7 +39,7 @@ const multicolumns = () => {
 
                 <article className={style.article}>
                     <div className={style.smallPicture}>
-                        <Image src={"/img/img3.jpg"} fill={true}></Image>
+                        <Image src={"/img/img3.jpg"} fill={true} alt="image"></Image>
                     </div>
                     <div className={style.smallText}>
                         <h3>Title</h3>
