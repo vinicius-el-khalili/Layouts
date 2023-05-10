@@ -23,7 +23,7 @@ const HolyGrail = () => {
                 </section>
 
                 <section className={style.content}>
-                    <h1>World's most beautiful waters</h1>
+                    <h1>World&apos;s most beautiful waters</h1>
                     <div>
                         <Image src={"/img/caribe.jpg"} fill={true} style={{objectFit:"cover"}} alt="image"></Image>
                     </div>
