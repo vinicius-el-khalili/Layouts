@@ -14,7 +14,7 @@ const FullWidth = () => {
                     <p>Contact</p>
                 </nav>
                 <section>
-                    <h1>Rustic</h1>
+                    <h1>Full Width</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum perspiciatis fuga eveniet voluptas illo eligendi voluptatum!</p>
                 </section>
             </section>

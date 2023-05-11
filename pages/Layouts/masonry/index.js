@@ -7,7 +7,7 @@ import cherry4 from "@/public/img/cherry4.jpg"
 import NavButton from "./navButton"
 import { useState } from "react"
 const Masonry = () => {
-    const [menuToggle,setMenuToggle] = useState(true)
+    const [menuToggle,setMenuToggle] = useState(false)
     function handleMenuButton(){
         menuToggle?
             setMenuToggle(false)
@@ -18,25 +18,12 @@ const Masonry = () => {
         <div className={style.body}>
 
             <nav className={style.nav}>
-                <NavButton handleMenuButton={handleMenuButton}></NavButton>
                 <div className={style.pageTitle}>
                     <div>
-                        <h3>Cherry</h3>
-                        <h1>BLOSSOM</h1>                        
+                        <h3>The</h3>
+                        <h1>Masonry</h1>                        
                     </div>
                 </div>
-                
-                <div style={menuToggle?{display:"block"}:{display:"none"}}>
-                    <div className={style.menu}>
-                        <h3>Section</h3>
-                        <h3>Section</h3>
-                        <h3>Section</h3>
-                        <h3>Section</h3>
-                    </div>    
-                </div>
-                
-
-
             </nav>
 
             <div className={style.gridContainer}>

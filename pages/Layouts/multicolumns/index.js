@@ -1,10 +1,10 @@
-import style from "./multicolumns.module.css"
+import style from "./multicolumns.module.scss"
 import Image from "next/image";
 const multicolumns = () => {
     return (
         <div className={style.body}>
             <header className={style.header}>
-                <h1>Page title</h1>
+                Multi Columns
             </header>
             <div className={style.gridContainer}>
                 <article className={style.mainArticle}>
@@ -13,7 +13,7 @@ const multicolumns = () => {
                     </div>
                     <div className={style.mainText}>
                         <h2>Title</h2>                        
-                        <p>Lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam commodi ipsa neque quae hic, fugit provident sit, facere, nihil eius nesciunt delectus sunt velit quisquam tempora dignissimos corporis pariatur error! Et, sit?</p>
                     </div>
                 </article>
 
@@ -23,7 +23,7 @@ const multicolumns = () => {
                     </div>
                     <div className={style.smallText}>
                         <h3>Title</h3>
-                        <p>Lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam commodi ipsa neque quae hic, fugit provident sit, facere, nihil eius nesciunt delectus sunt velit quisquam tempora dignissimos corporis pariatur error! Et, sit?</p>
                     </div>
                 </article>
 
@@ -33,7 +33,7 @@ const multicolumns = () => {
                     </div>
                     <div className={style.smallText}>
                         <h3>Title</h3>
-                        <p>Lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam commodi ipsa neque quae hic, fugit provident sit, facere, nihil eius nesciunt delectus sunt velit quisquam tempora dignissimos corporis pariatur error! Et, sit?</p>
                     </div>
                 </article>
 
@@ -43,7 +43,7 @@ const multicolumns = () => {
                     </div>
                     <div className={style.smallText}>
                         <h3>Title</h3>
-                        <p>Lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem ipsum epstemium stuff lorem</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam commodi ipsa neque quae hic, fugit provident sit, facere, nihil eius nesciunt delectus sunt velit quisquam tempora dignissimos corporis pariatur error! Et, sit?</p>
                     </div>
                 </article>
 

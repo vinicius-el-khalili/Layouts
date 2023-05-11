@@ -7,7 +7,7 @@ const HolyGrail = () => {
             <div className={style.gridContainer}>
                 
                 <header className={style.header}>
-                    <h1>Deep Waters</h1>
+                    <h1>Holy Grail</h1>
                 </header>
                 
                 <section className={style.menu}>

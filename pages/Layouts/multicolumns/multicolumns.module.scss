@@ -7,11 +7,14 @@
 .header{
     margin: 40px auto;
     border-bottom: 1px solid black;
+    margin: auto;  
+    font-size: 3rem;
+    text-align: center;
 }
 .gridContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
+    gap: 30px;
     margin: 20px;
 }
 .mainArticle{
@@ -24,6 +27,7 @@
 .article{
     display: grid;
     grid-template-columns: 1fr;
+    padding: 1rem;
 }
 .mainPicture,.smallPicture{
     border: 2px solid black;
@@ -32,7 +36,6 @@
     overflow: hidden;
 }
 .mainText,.smallText{
-    padding-top: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
 .mainText>p,.smallText>p{
