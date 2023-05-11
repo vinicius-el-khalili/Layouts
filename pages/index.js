@@ -1,5 +1,6 @@
 import Link from "next/link"
 import style from "@/styles/Home.module.scss"
+import { v4 } from "uuid"
 
 export default function Home() {
   return (
@@ -8,14 +9,14 @@ export default function Home() {
         <div>
         {
           "RESPONSIVE".split("").map(char=>(
-            <p key={char}>{char}</p>
+            <p key={v4()}>{char}</p>
           ))
         }
         </div>
         <div>
         {
           "LAYOUTS".split("").map(char=>(
-            <p key={char}>{char}</p>
+            <p key={v4()}>{char}</p>
           ))
         }
         </div>

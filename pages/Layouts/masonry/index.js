@@ -44,7 +44,7 @@ const Masonry = () => {
                 <Image src={cherry1} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
                 <Image src={cherry4} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
                 <Image src={cherry2} style={{display:"block",width:"100%",height:"auto"}} className={style.picture} alt="picture"></Image>
-
+                
             </div>
 
 
